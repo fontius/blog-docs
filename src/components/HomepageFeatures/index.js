@@ -4,32 +4,56 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Digital Identity',
+    Svg: require('@site/static/img/icons/undraw_profile_pic_identity.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        In today's digital age, managing and protecting your online identity is essential for your privacy and security.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Free Micro Transactions',
+    Svg: require('@site/static/img/icons/undraw_free-micro-transactions.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Blockchain technology has revolutionized the way we think about money, transactions and streaming currencies from IoT devices
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Realtime Auditing',
+    Svg: require('@site/static/img/icons/undraw_realtime-audit.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Permissioned triple entry accounting will provide greater transparency, accuracy, and security serving as the base layer for future economies
+      </>
+    ),
+  },
+  {
+    title: 'Tokenization',
+    Svg: require('@site/static/img/icons/undraw_growth_curve.svg').default,
+    description: (
+      <>
+        Future of tokenization is an exciting one, with numerous potential applications in a variety of industries that could lead to greater efficiency, transparency, and security.
+      </>
+    ),
+  },
+  {
+    title: 'Free Energy',
+    Svg: require('@site/static/img/icons/undraw_super_woman.svg').default,
+    description: (
+      <>
+        Prices for alternative energy continue to plunge, making them more accessible and affordable for individuals and businesses alike.
+      </>
+    ),
+  },
+  {
+    title: 'Precision Fermentation',
+    Svg: require('@site/static/img/icons/undraw_photograph.svg').default,
+    description: (
+      <>
+         The future of fermented foods in laboratories is one that could bring a wide range of new flavors, textures, and health benefits.
       </>
     ),
   },

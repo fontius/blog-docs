@@ -1,0 +1,8 @@
+{
+  "label": "Transactions",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Current information on the state of digital identity."
+  }
+}
