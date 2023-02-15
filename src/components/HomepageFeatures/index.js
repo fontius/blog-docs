@@ -40,7 +40,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Free Energy',
+    title: 'Green Energy',
     Svg: require('@site/static/img/icons/undraw_super_woman.svg').default,
     description: (
       <>

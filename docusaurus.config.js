@@ -35,16 +35,18 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
+          // Site entry points to docs mode only, original index renamed, remove to change app emtry point
+          routeBasePath: '/',
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,11 +71,12 @@ const config = {
             position: 'left',
             label: 'Resources',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //Blog navbar link for blog module
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/fontius',
+            href: 'https://github.com/fontius/blog-docs',
             label: 'GitHub',
-            position: 'left',
+            position: 'right',
           },
         ],
       },
@@ -109,18 +112,18 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+             // {
+               // label: 'Blog',
+              //  to: '/blog',
+             // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fontius',
+                href: 'https://github.com/fontius/blog-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Future Radical. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Future Radical`,
       },
       prism: {
         theme: lightCodeTheme,
